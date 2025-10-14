@@ -285,3 +285,37 @@ body {
   margin-bottom: 0.8rem;
   height: 30rem;
 }
+
+
+/* ===========================
+     faculty dropdown
+     =========================== */
+
+
+.dropdown li { position: relative; } 
+
+.dropdown li .sub-dropdown {
+  display: none;
+  position: absolute;
+  top: -1px;
+  left: 100%;               
+  min-width: 200px;
+  background: #fff;
+  border: 1px solid #ddd;
+  /* box-shadow: 0px 2px 5px rgba(0,0,0,0.1); */
+  z-index: 300;             
+}
+
+
+.dropdown li:hover > .sub-dropdown {
+  display: block;
+}
+
+
+.dropdown li > a::after { content: ""; }            
+.dropdown li.has-submenu > a::after {
+  content: " ›";
+  position: absolute;
+  right: 0.8rem;
+  color: inherit;
+}
