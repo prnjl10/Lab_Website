@@ -27,6 +27,10 @@ body {
 .remove-margin-top {
   margin-top: 0;
 }
+
+.main-box{
+  padding: 1rem;
+}
 /* ===========================
      Navbar (LEPS style)
      =========================== */
@@ -290,6 +294,7 @@ body {
   margin-bottom: 0.8rem;
   /* height: 30rem; */
   display: flex;
+
 }
 
 /* ===========================
@@ -347,4 +352,31 @@ body {
 }
 .sub-title {
   display: block;
+}
+
+
+/* ===========================
+     publication page
+     =========================== */
+
+.citation {
+  text-align: justify;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.paper-link {
+  color: blue;
+  text-decoration: none; /* 기본 밑줄 제거 */
+  border-bottom: 1px solid blue; /* 커스텀 밑줄 */
+  padding-bottom: 1px; /* 밑줄과 텍스트 간격 */
+}
+
+.paper-link:hover {
+  border-bottom: 2px solid darkblue;
+}
+
+.abstract-font-size {
+  font-size: x-small;
+
 }
