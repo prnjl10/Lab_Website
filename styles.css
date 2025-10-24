@@ -354,7 +354,9 @@ body {
   display: block;
 }
 .sub-title {
-  display: block;
+  border-bottom: 1px solid #ddd;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* ===========================
@@ -388,7 +390,7 @@ body {
 
 .publication {
   border-bottom: 1px solid #ddd;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   padding-bottom: 1rem;
 }
 
