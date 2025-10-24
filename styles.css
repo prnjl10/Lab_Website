@@ -28,8 +28,9 @@ body {
   margin-top: 0;
 }
 
-.main-box{
-  padding: 1rem;
+.main-box {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 /* ===========================
      Navbar (LEPS style)
@@ -169,7 +170,6 @@ body {
   padding: 0.5rem;
   gap: 1.2rem;
   margin-top: 3rem;
-
 }
 
 .sidebar {
@@ -294,7 +294,8 @@ body {
   margin-bottom: 0.8rem;
   /* height: 30rem; */
   display: flex;
-
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* ===========================
@@ -354,7 +355,6 @@ body {
   display: block;
 }
 
-
 /* ===========================
      publication page
      =========================== */
@@ -378,5 +378,4 @@ body {
 
 .abstract-font-size {
   font-size: x-small;
-
 }
