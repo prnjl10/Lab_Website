@@ -274,6 +274,7 @@ body {
      =========================== */
 
 #primary{
+    padding: 1.2rem;
     width: 230px;
     float: left;
     clear: left;
@@ -285,6 +286,7 @@ body {
   font-size: 0.85rem;
   margin-bottom: 0.8rem;
   height: 30rem;
+  display: flex;
 }
 
 
