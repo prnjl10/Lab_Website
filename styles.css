@@ -410,7 +410,7 @@ body {
   --avatar-size: 140px;
 }
 
-/* 2️⃣ 사람 카드 */
+
 .person-card {
   background: white;
   border: 1px solid #ccc;
@@ -420,7 +420,7 @@ body {
   border-radius: 6px;
 }
 
-/* 3️⃣ 프로필 사진 (HTML의 class="person-photo") */
+
 .person-card img.person-photo {
   width: var(--avatar-size) !important;
   height: var(--avatar-size) !important;
@@ -429,7 +429,11 @@ body {
   border-radius: 50% !important;
   object-fit: cover !important;
   object-position: center !important;
-  box-shadow: 0 0 0 2px #fff, 0 1px 6px rgba(0,0,0,0.15);
+
+
+  border: 3px solid #fff; 
+  box-shadow:
+    0 0 10px rgba(0, 0, 0, 0.25); 
 }
 
 /* 4️⃣ 그리드 정렬 */
