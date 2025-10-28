@@ -399,3 +399,44 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+
+/* ===========================
+       People Grid
+       =========================== */
+
+
+:root {
+  --avatar-size: 140px;
+}
+
+/* 2️⃣ 사람 카드 */
+.person-card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 0.8rem;
+  text-align: center;
+  width: 180px;
+  border-radius: 6px;
+}
+
+/* 3️⃣ 프로필 사진 (HTML의 class="person-photo") */
+.person-card img.person-photo {
+  width: var(--avatar-size) !important;
+  height: var(--avatar-size) !important;
+  display: block;
+  margin: 0 auto 0.6rem;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  box-shadow: 0 0 0 2px #fff, 0 1px 6px rgba(0,0,0,0.15);
+}
+
+/* 4️⃣ 그리드 정렬 */
+.people-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.5rem;
+}
