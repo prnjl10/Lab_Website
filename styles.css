@@ -214,27 +214,7 @@ body {
 /* ===========================
      People Grid
      =========================== */
-.people-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  margin: 1.5rem;
-}
 
-.person-card {
-  background: white;
-  border: 1px solid #ccc;
-  padding: 0.8rem;
-  text-align: center;
-  width: 180px;
-  border-radius: 6px;
-}
-
-.person-card img {
-  width: 100%;
-  border-radius: 50%;
-}
 
 /* ===========================
      Footer
@@ -443,3 +423,5 @@ body {
   justify-content: center;
   margin: 1.5rem;
 }
+
+
