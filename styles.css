@@ -212,11 +212,6 @@ body {
 }
 
 /* ===========================
-     People Grid
-     =========================== */
-
-
-/* ===========================
      Footer
      =========================== */
 .ucd-footer {
@@ -380,16 +375,13 @@ body {
   padding-bottom: 1rem;
 }
 
-
 /* ===========================
        People Grid
        =========================== */
 
-
 :root {
   --avatar-size: 140px;
 }
-
 
 .person-card {
   background: white;
@@ -400,7 +392,6 @@ body {
   border-radius: 6px;
 }
 
-
 .person-card img.person-photo {
   width: var(--avatar-size) !important;
   height: var(--avatar-size) !important;
@@ -410,12 +401,9 @@ body {
   object-fit: cover !important;
   object-position: center !important;
 
-
   border: 1px solid #ccc;
-
 }
 
-/* 4️⃣ 그리드 정렬 */
 .people-grid {
   display: flex;
   flex-wrap: wrap;
@@ -423,5 +411,3 @@ body {
   justify-content: center;
   margin: 1.5rem;
 }
-
-
