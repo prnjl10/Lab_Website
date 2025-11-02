@@ -338,7 +338,7 @@ body {
   display: block;
 }
 .sub-title {
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #ddd; */
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -347,17 +347,10 @@ body {
      publication page
      =========================== */
 
-.citation {
-  text-align: justify;
-  font-size: 14px;
-  font-family: Arial, sans-serif;
-}
-
 .paper-link {
   color: blue;
-  text-decoration: none; /* 기본 밑줄 제거 */
-  border-bottom: 1px solid blue; /* 커스텀 밑줄 */
-  padding-bottom: 1px; /* 밑줄과 텍스트 간격 */
+  text-decoration: none;
+  padding-bottom: 1px;
 }
 
 .paper-link:hover {
@@ -371,13 +364,37 @@ body {
 .project-box {
   border: 1px solid #ddd;
 }
-
-.publication {
+.publication-first-top {
+  border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  /* padding-top: 1rem; */
-  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 50px;
 }
 
+.citation {
+  text-align: justify;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.publication-first {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 50px;
+}
+
+.publication-last {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 50px;
+}
 .project {
   border-bottom: 1px solid #ddd;
   padding-top: 1rem;
