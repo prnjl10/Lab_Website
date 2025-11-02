@@ -40,6 +40,14 @@ body {
   padding: 0;
 }
 
+.logo-content {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -180,6 +188,8 @@ body {
   width: 150%;
   padding: 0.5rem;
   text-align: center;
+  position: relative;
+  border-right: 1px dotted #eee;
 }
 
 /* ===========================
