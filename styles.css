@@ -528,3 +528,10 @@ personal link github & linkedin */
   color: #000;
   transform: scale(1.1);
 }
+
+
+
+
+html {
+  overflow-y: scroll; /* 항상 세로 스크롤바 공간 확보 */
+}
